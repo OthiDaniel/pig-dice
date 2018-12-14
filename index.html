@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/jpg" href="img/favicon.jpg">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/home.js"></script>
+
+  <title>Pig Dice</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Pig Dice</h1>
+    </div>
+
+
+    <div class="well" id="well1">
+      Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":<br>
+
+      <ul>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.<br>
+        </li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.<br>
+        </li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.<br>
+        </li>
+      </ul>
+      <p>The first player to score 100 or more points wins.</p>
+      For example, the first player, Anne, begins a turn with a roll of 5. Anne could hold and score 5 points, but chooses to roll again. Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. Anne rolls a 1,
+      and must end her turn without scoring. The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score.</p>
+
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
