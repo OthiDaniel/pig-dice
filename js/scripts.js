@@ -92,3 +92,4 @@ $("button#new-game").click(function(event){
     $("#die-roll-2").empty();
     player2.winnerCheck();
   });
+});
