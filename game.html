@@ -18,13 +18,13 @@
       <form id="player-1">
         <div class="form-group">
           <label for="player1">Player1:</label>
-          <input required class="player1Name form-control" type="text">
+          <input required class="player1 form-control" id="inputdefault" type="text">
         </div>
       </form>
       <form id="player-2">
         <div class="form-group">
           <label for="player2">Player2:</label>
-          <input required class="player2Name form-control" type="text">
+          <input required class="player2 form-control" id="inputdefault" type="text">
         </div>
       </form>
       <button id="play" class="btn-info btn">Play</button>
@@ -34,7 +34,7 @@
     <button id="new-game" class="btn-success btn">NEW GAME</button>
     <div class="row">
       <div class="col-md-6" style="background-color:lavender;">
-        <h2>Player 1: <span id="player1Name"><span></h2>
+        <h2>Player 1: <span id="player1"><span></h2>
         <button id="player1-roll" class="btn-success btn">Roll</button>
         <button id="player1-hold" class="btn-success btn">Hold</button>
         <h2>Dice Roll: <span id="die-roll-1"></span></h2>
@@ -43,7 +43,7 @@
       </div>
 
       <div class="col-md-6" style="background-color:lavenderblush;">
-        <h2>Player 2: <span id="player2Name"><span></h2>
+        <h2>Player 2: <span id="player2"><span></h2>
         <button id="player2-roll" class="btn-success btn">Roll</button>
         <button id="player2-hold" class="btn-success btn">Hold</button>
         <h2>Dice Roll: <span id="die-roll-2"></span></h2>
