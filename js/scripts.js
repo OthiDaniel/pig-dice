@@ -25,3 +25,8 @@ Player.prototype.hold = function () {
   this.tempscore = 0;
   alert(this.playerName + ", your turn is over!")
 }
+Player.prototype.winnerCheck = function () {
+  if (this.totalscore >= 100) {
+    alert(this.playerName + " won!");
+  }
+}
