@@ -40,4 +40,35 @@ var nameValues = function() {
   $(".player1").val("");
   $(".player2").val("");
 }
-$(document).
+$(document).ready(function)() {
+  $("button#start").click(function(event){
+    player1 = new Player(true);
+    player2 =  new Player(false);
+    $(".player-console").show();
+    $(".start-menu").hide();
+
+    var player1 = $(".player1").val();
+    $("#player1").text(player1);
+
+    var player2 = $(".player2").val();
+    $("#player2").text(player2);
+
+    player1.playerName=player1;
+    player2.playerName=player2;
+
+
+});
+$("button#new-game").click(function(event){
+    $(".player-console").hide();
+    clearValues();
+    player1.newGame();
+    player2.newGame();
+    $("#round-total-1").empty();
+    $("#total-score-1").empty();
+    $("#die-roll-1").empty();
+    $("#round-total-2").empty();
+    $("#total-score-2").empty();
+    $("#die-roll-2").empty();
+
+    $(".start-menu").show();
+  });
