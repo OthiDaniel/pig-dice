@@ -30,3 +30,14 @@ Player.prototype.winnerCheck = function () {
     alert(this.playerName + " won!");
   }
 }
+Player.prototype.newGame = function () {
+  this.roll = 0;
+  this.tempscore = 0;
+  this.totalscore = 0;
+  this.playerName ="";
+}
+var nameValues = function() {
+  $(".player1").val("");
+  $(".player2").val("");
+}
+$(document).
