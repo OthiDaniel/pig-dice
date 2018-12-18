@@ -21,7 +21,9 @@ This is a game called pig dice whereby one plays around with probability by roll
 -   Jquery
 
 #Known Bugs
+
 There are currently no known bugs for this application.
 
 ###Licence
+
 My work is not licenced. This is to allow for future reference by newer and upcoming developers.
