@@ -1,6 +1,9 @@
 #Website Name
+
 Pig Dice
+
 #AUTHOR
+
 Daniel Ogonjo Othieno
 
 ##Description
