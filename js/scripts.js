@@ -2,7 +2,7 @@ var player1 = "";
 var player2 = "";
 
 var throwdice = function() {
-  return Math.floor(6 * Math.random()) + 1;
+  return Math.floor(Math.random()*6)+1;
 }
 
 function Player(turn) {
@@ -12,7 +12,6 @@ function Player(turn) {
   this.turn = turn;
   this.playerName;
 }
-
 
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
